@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form style="border :10px solid aquamarine">
+            <table align="center" cellpadding="7">
+                <tr>
+                    <td colspan="2" align="center">Creat Account</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><hr></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="firstname">First Name*</label><br>
+                        <input type="textbox" id="firstname" name="firstname" placeholder="Enter First Name" required>
+                    </td>
+
+                    <td>
+                        <label for="lastname">Last Name*</label><br>
+                        <input type="textbox" id="lastname" name="lastname" placeholder="Enter Last Name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="email">Email*</label><br>
+                            <input type="textbox" id="email" name="email" placeholder="xyz@gamil.com" size="59" required></td>
+                    </tr>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pass">Password*</label><br>
+                        <input type="password" id="pass" name="pass" placeholder="Enter your password" required>
+                    </td>
+                    <td>
+                        <label for="passagain">Conform Password*</label><br>
+                        <input type="password" id="passagain" name="passagain" placeholder="Enter your password again" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">Gender</label><br>
+                        <input type="radio" name="gender" value="male" checked>Male
+                        <input type="radio" name="gender" value="female">Female
+                    </td>
+                    <td>
+                        <label for="hobbies">hobbies</label><br>
+                        <input type="checkbox" id="hobbies" name="hobbies" value="music">Music
+                        <input type="checkbox" id="hobbies" name="hobbies" value="sports">Sports
+                        <input type="checkbox" name="hobbies" id="hobbies" value="travel">Travel
+                        <input type="checkbox" id="hobbies" name="hobbies" value="movie">Movie
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="src_income">Source of income</label><br>
+                        <select name="src_income">
+                            <option value="employed">Employed</option>
+                            <option value="farmer">Farmer</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="income">Income</label><br>
+                        <input type="range" id="income" name="income" min="1" max="20">
+                        <input type="button" id="income" name="income" value="20K">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="profile_photo">Upload Profile Photo</label><br>
+                        <input type="file" id="profile_photo" name="profile_photo">
+                    </td>
+                    <td>
+                        <label for="age">Age</label><br>
+                        <input type="number" id="age" name="age" min="18" max="100" step="1" value="18">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="bio">Bio</label><br>
+                        <textarea name="bio" id="bio" rows="5" cols="57"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><hr></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="right"><input type="submit" name="cmdsubmit" value="Creat"></td>
+                </tr>
+            </table>
+    </form>
+</body>
+</html>

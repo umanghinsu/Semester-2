@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body>
+    <h1 align="center">Student Registration</h1>
+    <form name="studentreg" action="p1action.html" target="_self">
+        <table border="0" align="center" cellspacing="20">
+            <tr>
+                <td><label for="fullname">FullName  </label></td>
+                <td><input type="textbox" id="fullname" name="fullname" placeholder="Enter FullName">
+            </tr>
+            <tr>
+                <td><label for="email">Email    </label></td>
+                <td><input type="textbox" id="email" name="email" placeholder="xyz@gamil.com"></td>
+            </tr>
+            <tr>
+                <td><lable for="number">Mobail NO.  </lable></td>
+                <td><input type="textbox" id="number" name="number" placeholder="Enter Number"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address    </label></td>
+                <td><textarea name="address" rows="5" cols="50" placeholder="Enter Address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="nationality">Nationality    </label></td>
+                <td><input type="textbox" id="nationality" name="nationality" placeholder="indian"></td>
+            </tr>
+            <tr>
+                <td><lable for="date">Date Of Birth </lable></td>
+                <td><input type="date" id="date" name="date"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender  </label></td>
+                <td>
+                    <input type="radio" name="gender" value="male" checked>Male
+                    <input type="radio" name="gender" value="female">Female
+                </td>
+            </tr>
+            <tr>
+                <td><label for="higtestdegree">Highest Degree  </label></td>
+                <td>
+                    <select name="higtestdegree">
+                        <option disabled selected>Select Degree</option>
+                        <option value="B.Tech">B.Tech</option>
+                        <option value="M.Tech">M.Tech</option>
+                        <option value="BCA">BCA</option>
+                        <option value="MCA">MCA</option>
+                        <option value="Diploma">Diploma</option>
+                        <option value="B.Sc.">B.Sc.</option>
+                        <option value="M.Sc.">M.Sc.</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><lable for="cpi">CPI    </lable></td>
+                <td><input type="textbox" id="cpi" name="cpi"></td>
+            </tr>
+            <tr>
+                <td><label for="univercity">Univercity  </label></td>
+                <td><input type="textbox" id="univercity" name="Univercity"></td>
+            </tr>
+            <tr>
+                <td><label for="passyear">Passing Year  </label></td>
+                <td>
+                    <select name="pssyear">
+                        <option disabled selected>Enter Your passing Year</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right"><input type="submit" name="cmdsubmit" value="submit"></td>
+                <td><input type="reset" name="cmdreset" value="reset"></td>
+                
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

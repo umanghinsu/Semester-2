@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Vaccine Registration Form</title>
+</head>
+<body>
+    <h1 align="center">COVID-19 Vaccine Registration Form</h1>
+    <form name="covidvaccine" action="p2action.html" target="_self">
+        <table border="0" align="center" cellspacing="20">
+            <tr>
+                <td><label for="firstname">First Name    </label></td>
+                <td><input type="textbox" id="firstname" name="firstname" placeholder="Enter First Name"></td>
+            </tr>
+            <tr>
+                <td><label for="lastname">Last Name    </label></td>
+                <td><input type="textbox" id="lastname" name="lastname" placeholder="Enter Last Name"></td>
+            </tr>
+            <tr>
+                <td><lable for="aadharnum">Aadhar number </lable></td>
+                <td><input type="textbox" id="aadharnum" name="aadharnum" placeholder="Enter Aadhar Number"></td>
+            </tr>
+            <tr>
+                <td><label for="vaccine_name">Vaccine Name  </label></td>
+                <td>
+                    <select name="vaccine_name">
+                        <option disabled selected>Please Enter Vaccine name</option>
+                        <option value="covaccine">Covaccine</option>
+                        <option value="covisild">Covisild</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="centername">Vaccine Center Name</label></td>
+                <td>
+                    <select name="centername">
+                        <option disabled selected>Please Enter Vaccine center name</option>
+                        <option value="dhrol">Dhrol</option>
+                        <option value="rajkot">Rajkot</option>
+                        <option value="jamnagar">Jamnagar</option>
+                        <option value="morbi">Morbi</option>
+                        <option value="daman">Daman</option>
+                        <option value="surat">Surat</option>
+                        <option value="gir">Gir</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><lable for="date">Date Of Dose  </lable></td>
+                <td><input type="date" id="date" name="date"></td>
+            </tr>
+            <tr>
+                <td><lable for="dose_number">Dose Number </lable></td>
+                <td><input type="textbox" id="dose_number" name="dose_number" placeholder="1 or 2"></td>
+            </tr>
+            <tr>
+                <td align="right"><input type="submit" name="cmdsubmit" value="CLICK HERE"></td>
+                <td><input type="reset" name="cmdreset" value="CANCLE"></td>
+                
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>
